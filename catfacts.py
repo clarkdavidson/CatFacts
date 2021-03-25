@@ -6,8 +6,8 @@ from botocore.exceptions import ClientError
 client = boto3.client(
    service_name='ses',
    region_name='us-east-1',
-   aws_access_key_id='AKIA5ORGZAXP3NXJPJSR',
-   aws_secret_access_key="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"
+   aws_access_key_id='Insert key here',
+   aws_secret_access_key="Insert secret Key here"
 )
 
 app = Flask(__name__)
